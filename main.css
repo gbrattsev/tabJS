@@ -1,0 +1,65 @@
+.page {
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.tab-item {
+  width: 200px;
+  border: 1px solid #999;
+  border-radius: 2px;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.content {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
+  padding: 50px 15px;
+  border: 2px solid #666;
+  border-radius: 4px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
